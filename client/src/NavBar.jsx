@@ -14,13 +14,13 @@ const NavBar = (props) => {
                     <span>
                         <Link id="other-links" to='/products' >Products</Link> 
                         <Link id="other-links" to='/contact-us'>Say Hello!</Link> 
-                        <Link to="/logout">Log Out</Link>
+                        <Link id="other-links" to="/logout">Log Out</Link>
                     </span>
                 )
                 : (
                     <span>
-                       <Link to="/login">Log In</Link> 
-                       <Link to="/signup">Sign Up</Link> 
+                       <Link id="other-links" to="/login">Log In</Link> 
+                       <Link id="other-links" to="/signup">Sign Up</Link> 
                     </span>
                 )
               }

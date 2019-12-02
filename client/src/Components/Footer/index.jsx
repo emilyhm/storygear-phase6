@@ -5,9 +5,11 @@ return (
     <footer className="footer">
       {/* shows logo shown on the left side of the footer */}
         <div className="logo">
+          <a href="/">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Film_strip.svg/1115px-Film_strip.svg.png"
               width="30" height="30" className="d-inline-block align-top" alt="black and white film strip with brand name"/>
-            <p>Story Gear</p>
+          </a>
+          <p>Story Gear</p>
         </div>
           
         {/* shows copyright and last updated date*/}

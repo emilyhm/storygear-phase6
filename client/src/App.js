@@ -38,7 +38,9 @@ class App extends React.Component {
             <div className="logo">
               {/* shows logo */}
               <div>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Film_strip.svg/1115px-Film_strip.svg.png" width="30" height="30" alt="black and white film strip with brand name"/>
+                <a href="/">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Film_strip.svg/1115px-Film_strip.svg.png" width="30" height="30" alt="black and white film strip with brand name"/>
+                </a>
               </div>
               <div>
                 <p>Story Gear</p>
