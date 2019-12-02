@@ -8,4 +8,4 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.querySelector('#root'));
 
-serviceWorker.unregister();
+serviceWorker.register();

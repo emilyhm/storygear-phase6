@@ -26,6 +26,16 @@ usersRouter.route('/').post(usersCtrl.create)
 // this is the signin route. It authenticates password
 usersRouter.post('/authenticate', usersCtrl.authenticate)
 
+// usersRouter.get("/contacts", (req, res) => {
+//     Contact.find({}, (err, data) => {
+//         if (err) {
+//             res.status(500).json("this is an error",err)
+//             return;
+//         }
+//         res.json(data)
+//     })
+// });
+
 usersRouter.get("/products", (req, res) => {
     Product.find({}, (err, data) => {
         if (err) {

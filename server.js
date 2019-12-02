@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require("express");
 const app = express();
+const compression = require('compression');
 const path = require("path");
 const helmet = require("helmet");
 // security
@@ -14,6 +15,7 @@ const apiRoutes = require("./routes/apiRoutes");
 
 
 //middleware
+app.use(compression());
 app.use(morgan("dev", { stream: accessLogStream }));
 app.use(helmet());
 app.use(express.json())

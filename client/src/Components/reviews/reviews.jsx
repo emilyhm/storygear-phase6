@@ -11,7 +11,7 @@ class Reviews extends React.Component {
     
     // fetches the data from the db, sets it to state, and only renders it once
     componentDidMount(){
-        let dataURL = '/api/contacts';
+        let dataURL = '/api/user/contacts';
         fetch(dataURL)
         .then(res => res.json())
         .then(details => {
