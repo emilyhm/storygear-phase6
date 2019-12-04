@@ -4,9 +4,9 @@ An eCommerce site that sells camera gear. Welcome to Story Gear! Tell us a story
 Visit the live site! --> https://story-gear.herokuapp.com 
 
 ## Mobile Screenshots
-![app icon on phone home screen](/mobile-screenshots/app-home.JPG | height=100)
-![app home screen on mobile](/mobile-screenshots/phone-homescreen.JPG | height=100)
-![app products screen on mobile](/mobile-screenshots/app-products.JPG | height=100)
+<img src="/mobile-screenshots/app-home.JPG" height="100">
+<img src="/mobile-screenshots/phone-homescreen.JPG" height="100">
+<img src="/mobile-screenshots/app-products.JPG" height="100">
 
 
 
