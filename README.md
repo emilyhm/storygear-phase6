@@ -3,6 +3,13 @@ An eCommerce site that sells camera gear. Welcome to Story Gear! Tell us a story
 
 Visit the live site! --> https://story-gear.herokuapp.com 
 
+## Mobile Screenshots
+![app icon on phone home screen](/mobile-screenshots/app-home.JPG)
+![app home screen on mobile](/mobile-screenshots/phone-homescreen.JPG)
+![app products screen on mobile](/mobile-screenshots/app-products.JPG)
+
+
+
 ## Getting Started
 These instructions can be used to run the project locally for development and testing. 
 1. Open your terminal and go to the root of the project
