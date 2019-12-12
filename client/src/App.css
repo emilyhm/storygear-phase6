@@ -83,7 +83,6 @@ h1 {
   border: 2px solid brown;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   font-size: 13px;
   position: fixed;
   bottom: 0px;

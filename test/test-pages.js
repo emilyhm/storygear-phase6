@@ -46,14 +46,6 @@ describe('testing apis', function(){
         });
     });
     
-    it('sends the products in an array', function(done) {
-        request('http://localhost:3001/api/products', function(err, res, body){
-            let products_array = JSON.parse(body)
-            expect(products_array).to.be.a('array');
-            done();
-        });
-    });
-    
     it('example: sends lens, high price', function(done) {
         request('http://localhost:3001/api/products/type/lens/price/high', function(err, res, body) {
             expect(res.statusCode).to.equal(200)

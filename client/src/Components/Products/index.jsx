@@ -106,7 +106,7 @@ class Products extends React.Component {
         </div>
 
         {/* dropdown options for type */}
-        <form className="filter">
+        {/* <form className="filter">
           <select className="select" ref={this.type} onChange= {this.handleProductChange}>
           <option value="all">All Products</option>
           <option value="cameras">Cameras</option>
@@ -115,15 +115,15 @@ class Products extends React.Component {
           <option value="lights">Lights</option>
           <option value="camera-bags">Camera Bags</option>
           <option value="storage">Storage</option>
-        </select>
+        </select> */}
         {/* dropdown options for price */}
-        <select className="select" ref={this.price} onChange= {this.handlePriceChange}>
+        {/* <select className="select" ref={this.price} onChange= {this.handlePriceChange}>
           <option value="all">All Prices</option>
           <option value="low">Low (0-499 USD)</option>
           <option value="medium">Medium (500-999 USD)</option>
           <option value="high">High (1000+ USD)</option>
         </select>
-        </form>
+        </form> */}
       
         {/* if data, render. if no data, 'please wait' */}
         {this.presentation()}
